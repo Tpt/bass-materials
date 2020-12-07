@@ -3,12 +3,15 @@ Bass dataset and code
 
 This repository contains a sample of Bass dataset and code.
 
+The full dataset is [available on FigShare](https://doi.org/10.6084/m9.figshare.13338743)
 
 ## Bass code
 
 The Bass implementation is provided as a Jupyter Notebook. It requires Python 3.6+, Tensorflow 2.0+ and the [`tokenizer` Python library](https://github.com/huggingface/tokenizers) (`pip3 install tokenizers`).
-Because only a sample of the dataset is provided because of space constraints, performances are slightly different from the paper evaluation.
+Because only a sample of the dataset is provided in this repository because of git space constraints, performances are slightly different from the paper evaluation.
 We also increased the maximal number of epochs to 20 to allow more training on this smaller dataset.
+
+To reproduce the evaluation on the complete dataset please replace the provided sample dataset by the one [shared on FigShare](https://doi.org/10.6084/m9.figshare.13338743).
 
 ## Dataset
 
